@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shia Islamic Knowledge Hub</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #000000, #0b1a2a);
+  color: white;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #00e5ff;
+  text-shadow: 0 0 20px #00e5ff;
+}
+
+.hero p {
+  max-width: 700px;
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* SECTION */
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  color: #00e5ff;
+  border-bottom: 1px solid #222;
+  padding-bottom: 10px;
+}
+
+/* CARD */
+.card {
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* glow animation */
+.glow {
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  from { text-shadow: 0 0 10px #00e5ff; }
+  to { text-shadow: 0 0 25px #ff004c; }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="hero">
+  <h1 class="glow">Shia Islamic Knowledge Hub</h1>
+  <p>Learn about Karbala, the Ahlulbayt (A.S), Muharram, Nahjul Balagha, and the teachings of Islam.</p>
+</div>
+
+<section>
+  <h2>Battle of Karbala</h2>
+  <div class="card">
+    Imam Hussain (A.S) stood against injustice in Karbala in 680 AD. His sacrifice represents truth, resistance, and faith.
+  </div>
+</section>
+
+<section>
+  <h2>Muharram (10 Days)</h2>
+  <div class="card">
+    Muharram is a sacred month of mourning. The 10 days leading to Ashura commemorate the tragedy of Karbala.
+  </div>
+</section>
+
+<section>
+  <h2>Nahjul Balagha</h2>
+  <div class="card">
+    A collection of sermons and letters of Imam Ali (A.S), covering justice, leadership, and wisdom.
+  </div>
+</section>
+
+<section>
+  <h2>5 Daily Shia Prayers</h2>
+  <div class="card">
+    Fajr, Dhuhr, Asr, Maghrib, Isha
+  </div>
+</section>
+
+<section>
+  <h2>Imams of Ahlulbayt (A.S)</h2>
+  <div class="card">
+    1. Imam Ali (A.S)<br>
+    2. Imam Hasan (A.S)<br>
+    3. Imam Hussain (A.S)<br>
+    4–12. The remaining Imams leading to Imam Mahdi (A.J.F)
+  </div>
+</section>
+
+<section>
+  <h2>Credits</h2>
+  <div class="card">
+    Created by <b>Syed Abdullah Abbas</b>
+  </div>
+</section>
+
+</body>
+</html>
